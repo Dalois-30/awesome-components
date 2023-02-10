@@ -6,7 +6,8 @@ import { environment } from 'src/environments/environment';
 
 /**
  * ici on n'injecte pas à partir du root car on doit appelle ce service uniquement
- * lorsque le module concerné est appelé 
+ * lorsque le module concerné est appelé , 
+ * on doit le provide dans le module correspondant
  */
 @Injectable()
 export class PostsService {

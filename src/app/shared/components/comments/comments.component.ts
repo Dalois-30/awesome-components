@@ -5,7 +5,8 @@ import { Comment } from 'src/app/core/models/comment.model';
 @Component({
   selector: 'app-comments',
   templateUrl: './comments.component.html',
-  styleUrls: ['./comments.component.scss']
+  styleUrls: ['./comments.component.scss'],
+
 })
 export class CommentsComponent implements OnInit {
 
@@ -36,3 +37,7 @@ export class CommentsComponent implements OnInit {
 
 
 }
+function trigger(arg0: string, arg1: never[]): any {
+  throw new Error('Function not implemented.');
+}
+
